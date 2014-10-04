@@ -53,6 +53,9 @@
                         position: end,
                         map: map
                     });
+
+                    var center_point_list = start.getCenterPointList(map.getProjection(), end, 17);
+                    console.log(center_point_list);
                 });
             }
 
